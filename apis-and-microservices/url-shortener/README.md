@@ -1,5 +1,7 @@
 # API Project: URL Shortener Microservice for freeCodeCamp
+This is a URL shortener microservice developed with Node/ExpressJS. MongoDB is used for storing shortened URL data.
 
+🌐 [**Live Demo**](https://url-shortener-jamcry.glitch.me/) *on Glitch*
 
 ### User Stories
 
@@ -10,12 +12,12 @@
 
 #### Creation Example:
 
-POST [project_url]/api/shorturl/new - body (urlencoded) :  url=https://www.google.com
+```POST https://url-shortener-jamcry.glitch.me/api/shorturl/new - body (urlencoded) :  url=https://www.google.com```
 
 #### Usage:
 
-[this_project_url]/api/shorturl/3
+```https://url-shortener-jamcry.glitch.me//api/shorturl/[short_url]```
 
 #### Will redirect to:
 
-https://www.freecodecamp.org/forum/
+```https://www.google.com```
