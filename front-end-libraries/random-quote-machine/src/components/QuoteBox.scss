@@ -1,0 +1,64 @@
+#quote-box {
+  width: 452px;
+  height: auto;
+  background-color: #346a5c;
+  box-shadow: 0 0 15px #446d62;
+  border-radius: 10px;
+  color: white;
+  padding: 1rem;
+  border: 5px solid #529c88;
+  text-align: center;
+  #text {
+    font-size: 24px;
+    font-family: serif;
+  }
+  #author {
+    font-size: 18px;
+    text-align: right;
+    font-style: italic;
+    margin-bottom: 1rem;
+  }
+  #new-quote {
+    border: 2px solid white;
+    border-radius: 10px;
+    color: white;
+    background: none;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: .5px;
+    padding: 1rem;
+    transition: .3s ease-out;
+    &:hover {
+      cursor: pointer;
+      background-color: rgba(255,255,255,.15);
+    }
+    // Remove highlighted border when clicked
+    outline: none;
+    &::-moz-focus-inner {
+      border: 0;
+    }
+  }
+  
+  #tweet-quote {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color:rgba(255,255,255,.75);
+    border: none;
+    border-radius: 5px;
+    padding: .4rem;
+    text-decoration: none;
+    margin: auto;
+    margin-right: 0;
+    width: -moz-fit-content;
+    width: fit-content;
+    &:hover {
+      background-color:rgba(255,255,255,1);
+    }
+    svg {
+      width: 20px;
+    }
+  }
+}
