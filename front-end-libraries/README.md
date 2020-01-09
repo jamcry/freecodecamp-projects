@@ -1,6 +1,6 @@
 # Front-end Libraries Projects
 This is a index for Front-end Libraries projects folder. This section consists of 5 projects.
-## #1 [Random Quote Machine](/apis-and-microservices/timestamp-microservice/)
+## #1 [Random Quote Machine](/front-end-libraries/random-quote-machine/)
 ## #2 Markdown Previewer
 ## #3 Drum Machine
 ## #4 JavaScript Calculator
