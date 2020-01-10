@@ -1,0 +1,32 @@
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #333;
+  color: white;
+  width: 100%;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.4);
+}
+
+.brand {
+  font-size: 24px;
+  font-weight: bold;
+  letter-spacing: 0.5px;
+  padding: 0.7rem;
+}
+
+.info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 24px;
+  height: 24px;
+  border: 1px solid white;
+  border-radius: 5px;
+  float: right;
+}
+
+.info:hover {
+  cursor: pointer;
+  background: rgba(255, 255, 255, 0.37);
+}

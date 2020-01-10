@@ -1,0 +1,13 @@
+#editor {
+  background: #d6d1bf;
+}
+
+textarea {
+  box-sizing: border-box;
+  width: 95%;
+  border-radius: 10px;
+  border-color: rgb(175, 169, 144);
+  height: 100%;
+  padding: 1rem;
+  max-width: 100%;
+}

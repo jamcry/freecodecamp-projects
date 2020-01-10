@@ -1,0 +1,9 @@
+#preview {
+  border: 1px solid #c5bc9c;
+  border-radius: 10px;
+  background: #f8ecc2;
+  padding: 0.25rem;
+  text-align: left;
+  width: 95%;
+  height: 100%;
+}
